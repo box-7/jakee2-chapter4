@@ -8,8 +8,7 @@ export const StyledJsx = () => {
                                 </p>
                                 <button className="button">FIGHT!!</button>
                         </div>
-                        {/* 講座では&:hover使えないとあるが、使える。改善されたのかも
-                StyledJSXは、next.jsでデフォルト　 */}
+                        {/* 講座では&:hover使えないとあるが、使える　StyledJSXは、next.jsでデフォルト */}
                         <style jsx="true">{`
                                 .container {
                                         border: solid 2px #392eff;
@@ -23,7 +22,7 @@ export const StyledJsx = () => {
                                 .title {
                                         margin: 0;
                                         color: #3d84a8;
-                                } 
+                                }
                                 .button {
                                         background-color: #abedd8;
                                         border:none;
